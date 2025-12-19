@@ -39,10 +39,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import { Snowfall } from "react-snowfall";
 
 function App() {
   return (
     <>
+    <Snowfall />
       <Navbar />
       <main>
         <Hero />
